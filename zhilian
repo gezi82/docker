@@ -1,0 +1,8 @@
+在游戏容器平台的nodejs，bun语言中上传直连的三个文件代码index.js，
+package.json和start.sh，这个代码原本是在serv00的中搭建的，也
+适用各游戏平台搭建，在index.js中修改uuid和填入游戏平台的端口，手动
+添加vless节点，在给节点套cdn加速
+在Codesandbox，back4app，Koyeb，gitpod等平台中，需要自建一个
+docker镜像节点，把zhilian-docker.zip全部上传即可，会自动生成一个
+端口转发的网址用来手动添加节点，
+注意:
