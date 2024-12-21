@@ -1,0 +1,7 @@
+各类玩具容器平台搭建vmess节点，不支持直接，走cloudflare阿狗隧道，
+支持你的容器平台地址访问获取节点，argo隧道vmess协议端口隧道一般是
+localhost:8001 ，vless协议一般端口隧道填 localhost:8002
+此脚本只支持nodejs和bun语言的容器上部属
+获取节点方法：http://你的容器地址/list/fd80f56e-93f3-4c85-b2a8
+注意：游戏容器平台的地址为
+http://域名或ip加端口/list/fd80f56e-93f3-4c85-b2a8获取节点
