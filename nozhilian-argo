@@ -5,3 +5,8 @@ localhost:8001 ，vless协议一般端口隧道填 localhost:8002
 获取节点方法：http://你的容器地址/list/fd80f56e-93f3-4c85-b2a8
 注意：游戏容器平台的地址为
 http://域名或ip加端口/list/fd80f56e-93f3-4c85-b2a8获取节点
+在Codesandbox，back4app，Koyeb，gitpod等平台的nodejs或bun语言上
+要上传导入所有代码，才能部属一个docker镜像节点出来
+而游戏容器平台不同，本身已存在docker镜像，只需上传导入index.js，
+package.json和start.sh这三个文件即可。在start.sh里面修改uuid和
+填入argo隧道的token和隧道域名再导入，节点用原址不能直连，只能用隧道域名
