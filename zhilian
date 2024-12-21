@@ -1,8 +1,11 @@
 在游戏容器平台的nodejs，bun语言中上传直连的三个文件代码index.js，
 package.json和start.sh，这个代码原本是在serv00的中搭建的，也
 适用各游戏平台搭建，在index.js中修改uuid和填入游戏平台的端口，手动
-添加vless节点，在给节点套cdn加速
+添加vless节点，在给节点套cdn加速。需上传的代码为zhilian.zip
 在Codesandbox，back4app，Koyeb，gitpod等平台中，需要自建一个
-docker镜像节点，把zhilian-docker.zip全部上传即可，会自动生成一个
+docker镜像节点，把V2ray-for-Doprax-main.zip或者
+nodejs-proxy_glitch-master.zip上传即可，会自动生成一个
 端口转发的网址用来手动添加节点，
-注意:
+注意:V2ray-for-Doprax-main.zip修改uuid是在Dockerfile文件
+nodejs-proxy_glitch-master.zip修改uuid是在app.js和
+app_edtunnel.js文件里
